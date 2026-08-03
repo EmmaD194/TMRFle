@@ -345,3 +345,9 @@ header p{
 .error{
     color:#d93025;
 }
+
+.startGameContainer{
+    margin-top:30px;
+    display:flex;
+    justify-content:center;
+}

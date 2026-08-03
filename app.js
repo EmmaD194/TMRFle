@@ -53,6 +53,8 @@ async function loadDances() {
 
     dances = await response.json();
 
+    document.querySelector("#gameArea").hidden = true;
+
     
 
 }
@@ -100,6 +102,9 @@ function getRandomItem(items) {
 
 function startGame() {
 
+  document.querySelector("#gameArea").hidden = false;
+
+document.querySelector("#startGameButton").hidden = true;
   document.querySelector("#guess-section").hidden = false;
 
 document.querySelector("#movement-game").hidden = true;
@@ -758,5 +763,11 @@ setTimeout(() => {
         alert("Not quite!");
 
     }
+
+}
+
+if ("serviceWorker" in navigator) {
+
+    navigator.serviceWorker.register("sw.js");
 
 }

@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TMRFle</title>
+    <link rel="icon" href="icons/icon-192.png">
+    <link rel="manifest" href="manifest.json">
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -13,6 +15,7 @@
     <h1>TMRFle</h1>
     <p>Guess the WIDA Céilí Dance</p>
 </header>
+
 
 <main>
 
@@ -56,15 +59,19 @@
 
     </div>
 
+    <div class="startGameContainer">
     <button
-    id="startGameButton"
-    type="button">
+        id="startGameButton"
+        type="button">
+        Start Game
+    </button>
+</div>
 
-    Start Game
 
-</button>
 
 </section>
+
+<div id="gameArea">
 
     <!-- CLUES -->
 
@@ -242,18 +249,22 @@ Check Body
         </p>
 
     </section>
-
+</div>
+    
 </main>
+
+
 
 <footer>
 
-    <small>
+    <!--<small>
         TMRFle
-    </small>
+    </small>-->
 
 </footer>
 
 <script src="app.js"></script>
 
 </body>
+
 </html>
