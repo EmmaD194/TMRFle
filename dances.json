@@ -1,5 +1,195 @@
 [
   {
+    "id": "walls-of-limerick",
+    "name": "Walls of Limerick",
+
+    "aliases": [
+      "The walls of limerick"
+    ],
+
+    "tmrf": 1,
+    "timing": "Reel",
+    "dancers": null,
+    "formation": "any number of couples - 2 opposite 2",
+    "progressive": true,
+
+    "figures": null,
+    "totalBars": 32,
+    "bodyBars": null,
+    "body": null,
+    "numberOfMovements": 4,
+
+    "specificTune": null,
+
+    "movements": [
+    {
+      "name": "Advance and Retire",
+      "bars": 8
+    },
+    {
+      "name": "Half Righ and Left",
+      "bars": 8
+    },
+    {
+      "name": "Dance with Opposite",
+      "bars": 8
+    },
+    {
+      "name": "Dance Around",
+      "bars": 8
+    }
+  ],
+
+    "orderOfMovements": [
+      "Advance and Retire",
+      "Half Righ and Left",
+      "Dance with Opposite",
+      "Dance Around"
+    ],
+
+    "flashcards": [],
+
+    "extraClues": null
+  },
+  {
+    "id": "fairy-reel",
+    "name": "Fairy Reel",
+
+    "aliases": [
+      "the fairy reel"
+    ],
+
+    "tmrf": 1,
+    "timing": "Reel",
+    "dancers": null,
+    "formation": "2 gents and 4 ladies",
+    "progressive": true,
+
+    "figures": null,
+    "totalBars": 96,
+    "bodyBars": null,
+    "body": null,
+    "numberOfMovements": 9,
+
+    "specificTune": null,
+
+    "movements": [
+    {
+      "name": "Advance and Retire",
+      "bars": 8
+    },
+    {
+      "name": "Ring",
+      "bars": 8
+    },
+    {
+      "name": "Slip Sides",
+      "bars": 16
+    },
+    {
+      "name": "Gents Centre & Link Arms",
+      "bars": 16
+    },
+    {
+      "name": "Square & Diamond",
+      "bars": 16
+    },
+    {
+      "name": "Arches",
+      "bars": 8
+    },
+    {
+      "name": "Advance, Retire and Pass Through",
+      "bars": 8
+    }
+  ],
+
+    "orderOfMovements": [
+      "Advance and Retire",
+      "Ring",
+      "Advance and Retire",
+      "Ring",
+      "Slip Sides",
+      "Gents Centre & Link Arms",
+      "Square & Diamond",
+      "Arches",
+      "Advance, Retire and Pass Through"
+    ],
+
+    "flashcards": [],
+
+    "extraClues": null
+  },
+  {
+    "id": "bonfire-dance",
+    "name": "Bonfire Dance",
+
+    "aliases": [
+      "the bonfire dance"
+    ],
+
+    "tmrf": 1,
+    "timing": "Reel",
+    "dancers": null,
+    "formation": "round dance",
+    "progressive": false,
+
+    "figures": null,
+    "totalBars": null,
+    "bodyBars": null,
+    "body": null,
+    "numberOfMovements": 10,
+
+    "specificTune": null,
+
+    "movements": [
+    {
+      "name": "Advance and Retire",
+      "bars": 8
+    },
+    {
+      "name": "Ring",
+      "bars": 8
+    },
+    {
+      "name": "Sidestep In & Out",
+      "bars": 4
+    },
+    {
+      "name": "Link Arms",
+      "bars": 4
+    },
+    {
+      "name": "The Rose",
+      "bars": 32
+    },
+    {
+      "name": "Turn and Exchange Partners",
+      "bars": 8
+    }
+  ],
+
+    "orderOfMovements": [
+      "Advance and Retire",
+      "Ring",
+      "Advance and Retire",
+      "Ring",
+      "Sidestep In & Out",
+      "Link Arms",
+      "Sidestep In & Out",
+      "Link Arms",
+      "The Rose",
+      "Turn and Exchange Partners"
+    
+    ],
+
+    "flashcards": [],
+
+    "extraClues": [
+      "No fewer than 6 couples (even number of people)",
+      "Traditionally said to have been danced around a bonfire at a summer festival on St. John's Eve"
+    ]},
+  {
     "id": "siege-of-ennis",
     "name": "Siege of Ennis",
 
@@ -1159,6 +1349,581 @@
     "flashcards": [],
 
     "extraClues": ["one gent and two ladies on his right", "no sidestep in this dance"]
+  },
+  {
+    "id": "bridge-of-athlone",
+    "name": "Bridge of Athlone",
+
+    "aliases": [
+      "The Bridge of Athlone"
+    ],
+
+    "tmrf": 4,
+    "timing": "Jig",
+    "dancers": null,
+    "formation": "any number of couples in two lines - gents in one, ladies in the other",
+    "progressive": true,
+
+    "figures": null,
+    "totalBars": null,
+    "bodyBars": null,
+    "numberOfMovements": 4,
+
+    "body": null,
+
+    "specificTune": "tune of same name",
+
+    "movements": [
+  {
+    "name": "Rising Step, Advance and Retire",
+    "bars": 32
+  },
+  {
+    "name": "Down the Centre",
+    "bars": 8
+  },
+  {
+    "name": "Cast Off",
+    "bars": null
+  },
+  {
+    "name": "The Bridge",
+    "bars": null
   }
+],
+
+    "orderOfMovements": [
+    "Rising Step, Advance and Retire",
+    "Down the Centre",
+    "Cast Off",
+    "The Bridge"
+    ],
+
+    "flashcards": [],
+
+    "extraClues": ["has two movements danced in march time", "dance is repeated until the music stops"]
+  },
   
+  {
+    "id": "waves-of-tory",
+    "name": "The Waves of Tory",
+
+    "aliases": [
+      "Waves of Tory"
+    ],
+
+    "tmrf": 4,
+    "timing": "Reel",
+    "dancers": null,
+    "formation": "any number of couples in two lines - gents in one, ladies in the other - couples in sets of four",
+    "progressive": true,
+
+    "figures": null,
+    "totalBars": null,
+    "bodyBars": null,
+    "numberOfMovements": 7,
+
+    "body": null,
+
+    "specificTune": null,
+
+    "movements": [
+  {
+    "name": "Advance and Retire",
+    "bars": 8
+  },
+  {
+    "name": "Right and Left Hands Across",
+    "bars": 8
+  },
+  {
+    "name": "Left and Right Hands Across",
+    "bars": 8
+  },
+  {
+    "name": "Lead off to the Right and Up the Centre",
+    "bars": null
+  },
+  {
+    "name": "The Waves",
+    "bars": null
+  },
+  {
+    "name": "Cast Off",
+    "bars": null
+  }
+],
+
+    "orderOfMovements": [
+    "Advance and Retire",
+    "Right and Left Hands Across",
+    "Advance and Retire",
+    "Left and Right Hands Across",
+    "Lead off to the Right and Up the Centre",
+    "The Waves",
+    "Cast Off"
+    ],
+
+    "flashcards": [],
+
+    "extraClues": ["has three movements danced in march time", "movements are repeated until the music stops"]
+  },
+  {
+    "id": "antrim-reel",
+    "name": "Antrim Reel",
+
+    "aliases": [
+      "The Antrim Reel"
+    ],
+
+    "tmrf": 4,
+    "timing": "Reel",
+    "dancers": null,
+    "formation": "any number of couples - each set is two couples facing each other",
+    "progressive": true,
+
+    "figures": null,
+    "totalBars": null,
+    "bodyBars": null,
+    "numberOfMovements": 8,
+
+    "body": null,
+
+    "specificTune": null,
+
+    "movements": [
+  {
+    "name": "Advance and Return",
+    "bars": 4
+  },
+  {
+    "name": "Right and Left Half Turn",
+    "bars": 4
+  },
+  {
+    "name": "Sidestep and Heyes",
+    "bars": 16
+  },
+  {
+    "name": "Down the Centre",
+    "bars": 8
+  },
+  {
+    "name": "Right and Left Hands Across",
+    "bars": 8
+  },
+  {
+    "name": "Sidestep with Opposite",
+    "bars": 8
+  },
+  {
+    "name": "Left and Right Hands Across",
+    "bars": 8
+  },
+  {
+    "name": "Dance Around",
+    "bars": 8
+  }
+],
+
+    "orderOfMovements": [
+    "Advance and Return",
+    "Right and Left Half Turn",
+    "Sidestep and Heyes",
+    "Down the Centre",
+    "Right and Left Hands Across",
+    "Sidestep with Opposite",
+    "Left and Right Hands Across",
+    "Dance Around"
+    ],
+
+    "flashcards": [],
+
+    "extraClues": ["odd-numbered couples are the leading couples", "starts with gents left hand in ladie's right hand"]
+  },
+  {
+    "id": "glencar-reel",
+    "name": "Glencar Reel",
+
+    "aliases": [
+      "The Glencar Reel"
+    ],
+
+    "tmrf": 4,
+    "timing": "Reel",
+    "dancers": null,
+    "formation": "6 hand containing 3 couples",
+    "progressive": false,
+
+    "figures": null,
+    "totalBars": null,
+    "bodyBars": null,
+    "numberOfMovements": 7,
+
+    "body": null,
+
+    "specificTune": null,
+
+    "movements": [
+  {
+    "name": "Advance and Retire",
+    "bars": 8
+  },
+  {
+    "name": "Ring",
+    "bars": 8
+  },
+  {
+    "name": "Sidestep Through",
+    "bars": 8
+  },
+  {
+    "name": "Figure of Eight",
+    "bars": null
+  },
+  {
+    "name": "Double Figure of Eight",
+    "bars": null
+  },
+  {
+    "name": "The Waves",
+    "bars": null
+  },
+  {
+    "name": "Snowball Chain",
+    "bars": null
+  }
+],
+
+    "orderOfMovements": [
+    "Advance and Retire",
+    "Ring",
+    "Sidestep Through",
+    "Figure of Eight",
+    "Double Figure of Eight",
+    "The Waves",
+    "Snowball Chain"
+    ],
+
+    "flashcards": [],
+
+    "extraClues": ["movements 4 and 5 are danced as one unit in 16 bars", "movements 6 and 7 are danced as one unit in 16 bars"]
+  },
+{
+    "id": "three-tunes",
+    "name": "The Three Tunes",
+
+    "aliases": [
+      "Three Tunes",
+      "3 tunes"
+    ],
+
+    "tmrf": 4,
+    "timing": "Mix of Reel, Jig and Hornpipe",
+    "dancers": 8,
+    "formation": "4 couples - tops and sides",
+    "progressive": false,
+
+    "figures": 5,
+    "totalBars": null,
+    "bodyBars": null,
+    "numberOfMovements": 13,
+
+    "body": ["Ladies' amd Gents' Rings",
+  "Stamp and Clap", "Roly Poly"],
+
+    "specificTune": "tune of same name",
+
+    "movements": [
+  {
+    "name": "Ring",
+    "bars": 16
+  },
+  {
+    "name": "Ladies' and Gents' Rings",
+    "bars": 16
+  },
+  {
+    "name": "Lead Around",
+    "bars": 16
+  },
+  {
+    "name": "Stamp and Clap",
+    "bars": 16
+  },
+  {
+    "name": "See Saw",
+    "bars": 16
+  },
+  {
+    "name": "Roly Poly",
+    "bars": 24
+  },
+  {
+    "name": "Hook and Chain",
+    "bars": 16
+  },
+  {
+    "name": "Sides under Arms",
+    "bars": 16
+  },
+  {
+    "name": "Thread the Needle",
+    "bars": 16
+  }
+],
+
+    "orderOfMovements": [
+    "Ring",
+    "Ladies' and Gents' Rings",
+    "Lead Around",
+    "Stamp and Clap",
+    "See Saw",
+    "Roly Poly",
+    "Hook and Chain",
+    "Ladies' and Gents' Rings",
+    "Sides under Arms",
+    "Stamp and Clap",
+    "Thread the Needle",
+    "Roly Poly",
+    "Ring"
+    ],
+
+    "flashcards": [],
+
+    "extraClues": ["Haste to the Wedding, Leslie's Hornpipe and The German Beau", "Repeated body movements alternate with the figures", "orignated in County Armagh"]
+  },
+  {
+    "id": "st-patricks-day",
+    "name": "St. Patrick's Day",
+
+    "aliases": [
+      "Saint Patricks Day",
+      "Saint Patrick's Day",
+      "St Patricks Day",
+      "St Patrick's Day"
+    ],
+
+    "tmrf": 4,
+    "timing": "Jig",
+    "dancers": 8,
+    "formation": "4 couples",
+    "progressive": false,
+
+    "figures": 2,
+    "totalBars": null,
+    "bodyBars": 72,
+    "numberOfMovements":11,
+
+    "body":[
+    "Sides",
+    "Half Left and Right",
+    "Sides",
+    "Half Left and Right",
+    "Double Quarter Chain",
+    "Extended Sides",
+    "Full Chain"
+],
+
+    "specificTune": "tune of same name",
+
+    "movements": [
+  {
+    "name": "Lead Around",
+    "bars": 16
+  },
+  {
+    "name": "Sides",
+    "bars": 8
+  },
+  {
+    "name": "Half Left and Right",
+    "bars": 6
+  },
+  {
+    "name": "Double Quarter Chain",
+    "bars": 16
+  },
+  {
+    "name": "Extended Sides",
+    "bars": 14
+  },
+  {
+    "name": "Full Chain",
+    "bars": 14
+  },
+  {
+    "name": "Advance and Retire",
+    "bars": 16
+  },
+  {
+    "name": "Ladies' Chain",
+    "bars": 16
+  }
+],
+
+    "orderOfMovements": [
+      "Lead Around",
+      "Body",
+      "Advance and Retire - Tops",
+      "Body",
+      "Advance and Retire- Sides",
+      "Body",
+      "Ladies' Chain - Tops",
+      "Body",
+      "Ladies' Chain - Sides",
+      "Body",
+      "Lead Around"
+    ],
+
+    "flashcards": [],
+
+    "extraClues": "Rising Step is performed in this dance"
+  },
+  {
+    "id": "trip-to-the-cottage",
+    "name": "Trip to the Cottage",
+
+    "aliases": [
+      "The trip to the cottage"
+    ],
+
+    "tmrf": 4,
+    "timing": "Jig",
+    "dancers": 8,
+    "formation": "4 couples",
+    "progressive": false,
+
+    "figures": 2,
+    "totalBars": null,
+    "bodyBars": 48,
+    "numberOfMovements": 6,
+
+    "body":[
+    "Diagonal Lines and Rings - Tops",
+    "Diagonal Lines and Rings - Sides"
+],
+
+    "specificTune": "tune of same name",
+
+    "movements": [
+  {
+    "name": "Cross Over and Lead Around",
+    "bars": 16
+  },
+  {
+    "name": "Diagonal Lines and Rings",
+    "bars": 24
+  },
+  {
+    "name": "Arches and Ring",
+    "bars": 24
+  },
+  {
+    "name": "Advance, Retire and Cross Over",
+    "bars": 16
+  }
+],
+
+    "orderOfMovements": [
+      "Cross Over and Lead Around - Tops",
+      "Cross Over and Lead Around - Sides",
+      "Body",
+      "Arches and Ring - Opposite tops lady",
+      "Arches and Ring - Leading tops lady",
+      "Arches and Ring - Opposite sides lady",
+      "Arches and Ring - Leading sides lady",
+      "Body",
+      "Advance, Retire and Cross Over - tops",
+      "Advance, Retire and Cross Over - sides",
+      "Body",
+      "Cross Over and Lead Around"
+    ],
+
+    "flashcards": [],
+
+    "extraClues": "originated in County Armagh"
+  },
+  {
+    "id": "duke-reel",
+    "name": "Duke Reel",
+
+    "aliases": [
+      "The Duke Reel",
+      "Duke"
+    ],
+
+    "tmrf": 4,
+    "timing": "Reel",
+    "dancers": 6,
+    "formation": "three couples",
+    "progressive": false,
+
+    "figures": 2,
+    "totalBars": null,
+    "bodyBars": 40,
+    "numberOfMovements": 8,
+
+    "body":[
+    "Sides",
+    "Link Arms",
+    "Interlace",
+    "Advance and Retire"
+],
+
+    "specificTune": null,
+
+    "movements": [
+  {
+    "name": "Ring",
+    "bars": 8
+  },
+  {
+    "name": "Sides",
+    "bars": 16
+  },
+  {
+    "name": "Link Arms",
+    "bars": 8
+  },
+  {
+    "name": "Interlace",
+    "bars": 8
+  },
+  {
+    "name": "Advance and Retire",
+    "bars": 8
+  },
+  {
+    "name": "Figure of Eight",
+    "bars": 16
+  },
+  {
+    "name": "Right and Left Chain",
+    "bars": 16
+  },
+  {
+    "name": "Dance Around",
+    "bars": 8
+  }
+],
+
+    "orderOfMovements": [
+      "Ring",
+      "Body",
+      "Figure of Eight - couples 1 & 2",
+      "Figure of Eight - couples 2 & 3",
+      "Figure of Eight - couples 3 & 1",
+      "Body",
+      "Right and Left Chain - couples 1 & 2",
+      "Right and Left Chain - couples 2 & 3",
+      "Right and Left Chain - couples 3 & 1",
+      "Body",
+      "Dance Around"
+    ],
+
+    "flashcards": [],
+
+    "extraClues": null
+  }
 ]
