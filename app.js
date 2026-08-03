@@ -330,11 +330,13 @@ function startMovementGame(){
 
     const bodyGame = document.querySelector("#body-game");
 
-if (currentDance.body && currentDance.body.length > 0) {
+/*if (currentDance.body && currentDance.body.length > 0) {
     bodyGame.style.display = "none";
 } else {
     bodyGame.style.display = "none";
-}
+}*/
+
+bodyGame.hidden = true;
 
     movementAnswer=[...currentDance.orderOfMovements];
 
@@ -455,6 +457,12 @@ document
 
     function startBodyGame(index){
 
+      document.querySelector("#bodyMessage").textContent =
+    "This dance contains a repeated Body. Complete it once, then return to finish building the dance.";
+
+document.querySelector("#bodyMessage").className =
+    "gameMessage";
+
     bodyChoices=[...bodyAnswer]
         .sort(()=>Math.random()-0.5);
 
@@ -551,16 +559,34 @@ msg.className = "gameMessage error";
 
     const bodyGame = document.querySelector("#body-game");
 
-bodyGame.style.display = "none";
-bodyGame.hidden = true;;
+//bodyGame.style.display = "none";
+//bodyGame.hidden = true;;
+
+const msg = document.querySelector("#bodyMessage");
+
+msg.textContent =
+    "🎉 Body complete! Scroll back up to finish building the dance.";
+
+msg.className = "gameMessage success";
+
+
+
+document.querySelector("#movement-game").scrollIntoView({
+    behavior:"smooth",
+    block:"start"
+});
 
 bodyCompleted = true;
 
-    selectedMovements.push("Body");
+document.querySelector("#movement-game").scrollIntoView({
+    behavior: "smooth",
+    block: "start"
+});
+    /*selectedMovements.push("Body");
 
     movementChoices.splice(currentBodyIndex,1);
 
-    renderMovementGame();
+    renderMovementGame();*/
 
 });
 
@@ -613,36 +639,43 @@ msg.className = "gameMessage error";
 
     if(correct){
 
-        setTimeout(()=>{
+    const msg = document.querySelector("#movementMessage");
 
-            const msg = document.querySelector("#movementMessage");
+    if(correct){
 
-msg.textContent = "🎉 Perfect!";
-msg.className = "gameMessage success";
+    const msg = document.querySelector("#movementMessage");
 
-            setTimeout(() => {
+    msg.textContent =
+        "🎉 Perfect! Scroll down to the Bars Challenge.";
 
-    document.querySelector("#movement-game").hidden = true;
+    msg.className = "gameMessage success";
 
-    if(currentDance.body){
-        startBodyGame();
-    }else{
+    showBarsQuestion();
+
+    document.querySelector("#bars-game").scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+    });
+
+}
+    else{
+
+        msg.textContent =
+            "🎉 Perfect! Scroll down to the Bars Challenge.";
+
+        msg.className = "gameMessage success";
+
         showBarsQuestion();
-    }
 
-},1000);
+        document.querySelector("#bars-game").scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+        });
 
-            
-
-        },300);
-
-        
-
-        showBarsQuestion();
     }
 
 }
-
+}
 function showFlashcard() {
   if (currentDance.flashcards.length === 0) {
     document.querySelector("#flashcard-question").textContent =
@@ -751,7 +784,17 @@ setTimeout(() => {
 
     document.querySelector("#bars-game").hidden = true;
 
-    showFlashcard();
+    document.querySelector("#barsMessage").textContent =
+    "🏆 Dance Complete!";
+
+document.querySelector("#barsMessage").className =
+    "gameMessage success";
+
+document.querySelector("#new-game-button").hidden = false;
+
+document.querySelector("#resultCard").scrollIntoView({
+    behavior:"smooth"
+});
 
 },1000);
 
@@ -765,6 +808,7 @@ setTimeout(() => {
     }
 
 }
+
 
 if ("serviceWorker" in navigator) {
 
