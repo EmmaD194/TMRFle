@@ -13,7 +13,7 @@ let selectedMovements = [];
 
 let movementResults = [];
 
-let selectedTmrf = "2";
+let selectedTmrf = "all";
 
 let bodyAnswer = [];
 let bodyChoices = [];
@@ -67,6 +67,7 @@ function buildClues() {
     cluePool = [];
 
     cluePool.push(`Timing: ${currentDance.timing}`);
+    if(currentDance.dancers != null)
     cluePool.push(`${currentDance.dancers} dancers`);
     cluePool.push(currentDance.progressive ? "Progressive dance" : "Not progressive");
 
@@ -146,7 +147,7 @@ currentDance = getRandomItem(availableDances);
 
 document.querySelector("#tmrfLevel").textContent =
     selectedTmrf == "all"
-    ? "2–4"
+    ? "1–4"
     : selectedTmrf;
 
     revealedClues = 1;
@@ -726,7 +727,11 @@ function loseGame() {
 
 function showBarsQuestion(){
 
-    currentBarsMovement = getRandomItem(currentDance.movements);
+    const barMovements = currentDance.movements.filter(
+    movement => movement.bars != null
+);
+
+currentBarsMovement = getRandomItem(barMovements);
 
     correctBarsAnswer = currentBarsMovement.bars;
 
