@@ -1,0 +1,347 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+body{
+    background:#f5f5f7;
+    font-family:Inter,system-ui,sans-serif;
+    margin:0;
+}
+
+main{
+
+    max-width:900px;
+
+    margin:40px auto;
+
+    padding:20px;
+
+}
+
+button{
+
+    background:#1b8c4d;
+
+    color:white;
+
+    border:none;
+
+    border-radius:12px;
+
+    padding:14px 22px;
+
+    font-size:17px;
+
+    cursor:pointer;
+
+    transition:.2s;
+
+}
+
+button:hover{
+
+    transform:translateY(-2px);
+
+    background:#15703d;
+
+}
+
+.game {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 24px;
+}
+
+input {
+  width: 100%;
+  min-height: 48px;
+  padding: 12px;
+  border: 1px solid #999;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button {
+  min-height: 44px;
+  padding: 10px 16px;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#guess-button,
+#reveal-answer-button,
+#new-game-button {
+  width: 100%;
+  margin-top: 12px;
+  background: #177245;
+  color: white;
+}
+
+.autocomplete {
+  position: relative;
+}
+
+#suggestions {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  background: white;
+  border-radius: 8px;
+}
+
+#suggestions button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: white;
+  color: #202020;
+  border-bottom: 1px solid #ddd;
+  border-radius: 0;
+}
+
+#clue-list{
+
+    list-style:none;
+
+    padding:0;
+
+}
+
+#clue-list li{
+
+    background:#eef8f2;
+
+    border-left:5px solid #1b8c4d;
+
+    padding:14px 18px;
+
+    margin-bottom:12px;
+
+    border-radius:10px;
+
+}
+
+#flashcard {
+  padding: 16px;
+  background: white;
+  border-radius: 10px;
+}
+
+#movementChoices,
+#selectedMovements{
+
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+
+    margin-bottom:20px;
+
+}
+
+#guess-input{
+
+    width:100%;
+
+    padding:18px;
+
+    font-size:18px;
+
+    border-radius:14px;
+
+    border:2px solid #ddd;
+
+}
+
+#guess-input:focus{
+
+    border-color:#1b8c4d;
+
+    outline:none;
+
+}
+
+.movementChip{
+
+    background:white;
+
+    color:#1b8c4d;
+
+    border:2px solid #1b8c4d;
+
+    border-radius:999px;
+
+    padding:12px 20px;
+
+    font-weight:600;
+
+}
+
+.movementChip:hover{
+
+    background:#1b8c4d;
+
+    color:white;
+
+}
+
+.selectedChip{
+
+    background:#1b8c4d;
+
+    color:white;
+
+}
+
+.correctChip{
+
+    background:#198754 !important;
+
+}
+
+.partialChip{
+
+    background:#ffc107 !important;
+    color:black;
+
+}
+
+.wrongChip{
+
+    background:#dc3545 !important;
+
+}
+
+.card{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:24px;
+
+    margin-bottom:24px;
+
+    box-shadow:
+        0 4px 15px rgba(0,0,0,.05);
+
+}
+
+header{
+
+    text-align:center;
+
+    margin:40px 0;
+
+}
+
+header h1{
+
+    font-size:48px;
+
+    margin-bottom:10px;
+
+}
+
+header p{
+
+    color:#777;
+
+}
+
+#guess-history p{
+
+    display:inline-block;
+
+    margin:6px;
+
+    padding:10px 16px;
+
+    background:#eee;
+
+    border-radius:999px;
+
+}
+
+.modeButton{
+
+    padding:12px 22px;
+
+    border-radius:999px;
+
+    border:2px solid #198754;
+
+    cursor:pointer;
+
+}
+
+.modeButton.selected{
+
+    background:#198754;
+
+    color:white;
+
+}
+
+#tmrfButtons{
+
+    display:flex;
+    gap:12px;
+    flex-wrap:wrap;
+
+}
+
+.tmrfButton{
+
+    background:white;
+    color:#198754;
+
+    border:2px solid #198754;
+
+    border-radius:999px;
+
+    padding:10px 22px;
+
+    font-size:16px;
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.2s;
+
+}
+
+.tmrfButton:hover{
+
+    background:#eef8f2;
+
+}
+
+.tmrfButton.selected{
+
+    background:#198754;
+
+    color:white;
+
+}
+
+.gameMessage{
+    min-height:28px;
+    margin:15px 0;
+    font-weight:600;
+    text-align:center;
+}
+
+.success{
+    color:#1f8b4c;
+}
+
+.error{
+    color:#d93025;
+}

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TMRFle</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>TMRFle</h1>
+    <p>Guess the WIDA Céilí Dance</p>
+</header>
+
+<main>
+
+    <section class="card">
+        <div class="game-info">
+
+            <div>
+                <strong>Guess</strong>
+                <span id="guessCounter">1 / 6</span>
+            </div>
+
+            <div>
+                <strong>TMRF</strong>
+                <span id="tmrfLevel">2</span>
+            </div>
+
+        </div>
+    </section>
+
+   <section class="card">
+
+    <h2>Study Mode</h2>
+
+    <div id="tmrfButtons">
+
+        <button class="tmrfButton selected" data-value="2">
+            TMRF 2
+        </button>
+
+        <button class="tmrfButton" data-value="3">
+            TMRF 3
+        </button>
+
+        <button class="tmrfButton" data-value="4">
+            TMRF 4
+        </button>
+
+        <button class="tmrfButton" data-value="all">
+            All
+        </button>
+
+    </div>
+
+    <button
+    id="startGameButton"
+    type="button">
+
+    Start Game
+
+</button>
+
+</section>
+
+    <!-- CLUES -->
+
+    <section class="card">
+
+        <h2>Clues</h2>
+
+        <ul id="clue-list">
+
+        </ul>
+
+    </section>
+
+    <!-- GUESS -->
+
+    <section id="guess-section" class="card">
+
+        <h2>Your Guess</h2>
+
+        <div class="autocomplete">
+
+            <input
+                id="guess-input"
+                type="text"
+                autocomplete="off"
+                spellcheck="false"
+                placeholder="Start typing..."
+            >
+
+            <div id="suggestions"></div>
+
+        </div>
+
+        <button id="guess-button">
+            Guess
+        </button>
+
+        <p id="message"></p>
+
+    </section>
+
+    <!-- HISTORY -->
+
+    <section class="card">
+
+        <h2>Previous Guesses</h2>
+
+        <div id="guess-history">
+
+        </div>
+
+    </section>
+
+    <!-- RESULT -->
+
+    <section
+        id="resultCard"
+        class="card hidden"
+    >
+
+        <h2 id="resultTitle">
+
+        </h2>
+
+        <p id="resultText">
+
+        </p>
+
+        <button id="new-game-button">
+            New Game
+        </button>
+
+    </section>
+
+    <section
+    id="movement-game"
+    class="card hidden">
+
+    <h2>Build the Dance</h2>
+
+    <p id="movementMessage" class="gameMessage"></p>
+
+    <p>
+        Tap the movements in the correct order.
+    </p>
+
+    <div id="selectedMovements">
+
+    </div>
+
+    <hr>
+
+    <div id="movementChoices">
+
+    </div>
+
+    <br>
+
+    <button id="checkMovementOrder">
+        Check Order
+    </button>
+
+</section>
+
+<section
+id="body-game"
+class="card hidden">
+
+<h2>Build the Body</h2>
+
+<p id="bodyMessage" class="gameMessage"></p>
+
+<p>
+Tap the Body movements in order.
+</p>
+
+<div id="selectedBody">
+
+</div>
+
+<hr>
+
+<div id="bodyChoices">
+
+</div>
+
+<br>
+
+<button
+type="button"
+id="checkBody">
+
+Check Body
+
+</button>
+
+</section>
+
+<section
+    id="bars-game"
+    class="card hidden">
+
+    <h2>Bars Challenge</h2>
+
+    <p id="barsMessage" class="gameMessage"></p>
+
+    <p id="barsQuestion"></p>
+
+    <div id="barsChoices"></div>
+
+</section>
+
+    <!-- FLASHCARD -->
+
+    <section
+        id="flashcard"
+        class="card hidden"
+    >
+
+        <h2>Bonus Exam Question</h2>
+
+        <p id="flashcard-question">
+
+        </p>
+
+        <button id="reveal-answer-button">
+            Reveal Answer
+        </button>
+
+        <p
+            id="flashcard-answer"
+            class="hidden"
+        >
+
+        </p>
+
+    </section>
+
+</main>
+
+<footer>
+
+    <small>
+        TMRFle
+    </small>
+
+</footer>
+
+<script src="app.js"></script>
+
+</body>
+</html>

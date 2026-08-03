@@ -1,0 +1,1164 @@
+[
+  {
+    "id": "siege-of-ennis",
+    "name": "Siege of Ennis",
+
+    "aliases": [
+      "Siege",
+      "Siege of Ennis"
+    ],
+
+    "tmrf": 2,
+    "timing": "Jig",
+    "dancers": 8,
+    "formation": "4 opposite 4",
+    "progressive": true,
+
+    "figures": null,
+    "totalBars": 32,
+    "bodyBars": null,
+    "body": null,
+    "numberOfMovements": 4,
+
+    "specificTune": null,
+
+    "movements": [
+    {
+      "name": "Advance and Retire",
+      "bars": 8
+    },
+    {
+      "name": "Sides",
+      "bars": 8
+    },
+    {
+      "name": "Right and Left Hands Across",
+      "bars": 8
+    },
+    {
+      "name": "Advance, Retire and Pass Through",
+      "bars": 8
+    }
+  ],
+
+    "orderOfMovements": [
+      "Advance and Retire",
+      "Sides",
+      "Right and Left Hands Across",
+      "Advance, Retire and Pass Through"
+    ],
+
+    "flashcards": [],
+
+    "extraClues": [
+      "Any number of two couples in a line.",
+      "Two couples in a line face another set."
+    ]
+  },
+
+  {
+    "id": "humours-of-bandon",
+    "name": "Humours of Bandon",
+
+    "aliases": [
+      "Humours",
+      "Humours of Bandon"
+    ],
+
+    "tmrf": 2,
+    "timing": "Jig",
+    "dancers": 4,
+    "formation": "2 opposite 2",
+    "progressive": false,
+
+    "figures": 3,
+    "totalBars": null,
+    "bodyBars": 32,
+    "numberOfMovements": 9,
+
+    "body":[
+    "Sides",
+    "Half Right and Half Left",
+    "Sides",
+    "Half Right and Half Left"
+],
+
+    "specificTune": "Same name as dance",
+
+    "movements": [
+  {
+    "name": "Lead Around",
+    "bars": 16
+  },
+  {
+    "name": "Sides",
+    "bars": 8
+  },
+  {
+    "name": "Half Right and Half Left",
+    "bars": 8
+  },
+  {
+    "name": "Advance Through Centre",
+    "bars": 16
+  },
+  {
+    "name": "Centre Meet",
+    "bars": 16
+  },
+  {
+    "name": "Ladies' Chain",
+    "bars": 16
+  }
+],
+
+    "orderOfMovements": [
+      "Lead Around",
+      "Body",
+      "Advance Through Centre - Tops",
+      "Body",
+      "Advance Through Centre - Opposites",
+      "Body",
+      "Centre Meet - Tops",
+      "Body",
+      "Centre Meet - Opposites",
+      "Body",
+      "Ladies' Chain",
+      "Body",
+      "Lead Around"
+    ],
+
+    "flashcards": [],
+
+    "extraClues": [
+      "Two couples.",
+      "Danced to the tune 'Humours of Bandon'."
+    ]
+  },
+
+  {
+    "id": "high-cauled-cap",
+    "name": "High Cauled Cap",
+
+    "aliases": [
+      "High Cauled",
+      "Cauled Cap",
+      "High Caul Cap"
+    ],
+
+    "tmrf": 2,
+    "timing": "Reel",
+    "dancers": 8,
+    "formation": "4 couples",
+    "progressive": false,
+
+    "figures": 3,
+    "totalBars": null,
+    "bodyBars": 80,
+    "numberOfMovements": 10,
+
+    "body":[
+    "Sides",
+    "Double Quarter Chain",
+    "Ladies' Interlace",
+    "Gents' Interlace",
+    "Stamp & Clap"
+],
+
+    "specificTune": null,
+
+    "movements": [
+  {
+    "name": "Lead Around",
+    "bars": 16
+  },
+  {
+    "name": "Sides",
+    "bars": 16
+  },
+  {
+    "name": "Double Quarter Chain",
+    "bars": 16
+  },
+  {
+    "name": "Ladies' Interlace",
+    "bars": 16
+  },
+  {
+    "name": "Gents' Interlace",
+    "bars": 16
+  },
+  {
+    "name": "Stamp & Clap",
+    "bars": 16
+  },
+  {
+    "name": "Sidestep and Dance Through",
+    "bars": 16
+  },
+  {
+    "name": "Circle and Cross",
+    "bars": 24
+  },
+  {
+    "name": "Ladies' Chain",
+    "bars": 16
+  },
+  {
+    "name": "Advance, Retire, Rings and Dance Around",
+    "bars": 40
+  }
+],
+
+    "orderOfMovements": [
+      "Lead Around",
+      "Body",
+      "Sidestep and Dance Through - Tops",
+      "Sidestep and Dance Through - Opposite Tops",
+      "Sidestep and Dance Through - Leading Sides",
+      "Sidestep and Dance Through - Opposite Sides",
+      "Body",
+      "Circle and Cross - Tops",
+      "Circle and Cross - Opposite Tops",
+      "Circle and Cross - Leading Sides",
+      "Circle and Cross - Opposite Sides",
+      "Body",
+      "Ladies' Chain - Tops",
+      "Ladies' Chain - Sides",
+      "Body",
+      "Advance, Retire, Rings and Dance Around"
+    ],
+
+    "flashcards": [],
+
+    "extraClues": [
+      "Originated in County Kerry.",
+      "Traditonally danced to its own tune but can be danced to any reel'."
+    ]
+  },
+
+  {
+    "id": "morris-reel",
+    "name": "Morris Reel",
+
+    "aliases": [
+      "Morris"
+    ],
+
+    "tmrf": 2,
+    "timing": "Reel",
+    "dancers": 8,
+    "formation": "4 couples",
+    "progressive": false,
+
+    "figures": 2,
+    "totalBars": null,
+    "bodyBars": 80,
+    "numberOfMovements": 8,
+
+    "body":[
+    "Sides",
+    "Right Hands Across",
+    "Return Chain",
+    "Back to Back"
+],
+
+    "specificTune": null,
+
+    "movements": [
+  {
+    "name": "Lead Around",
+    "bars": 16
+  },
+  {
+    "name": "Sides",
+    "bars": 16
+  },
+  {
+    "name": "Right Hands Across",
+    "bars": 32
+  },
+  {
+    "name": "Return Chain",
+    "bars": 16
+  },
+  {
+    "name": "Back-to-Back",
+    "bars": 16
+  },
+  {
+    "name": "Advance, Retire and Dance Around",
+    "bars": 16
+  },
+  {
+    "name": "Ladies' Chain",
+    "bars": 16
+  },
+  {
+    "name": "Advance, Retire, Rings and Dance Around",
+    "bars": 40
+  }
+],
+
+    "orderOfMovements": [
+      "Lead Around",
+      "Body",
+      "Advance, Retire and Dance Around - Tops",
+      "Advance, Retire and Dance Around - Sides",
+      "Body",
+      "Ladies' Chain - Tops",
+      "Ladies' Chain - Sides",
+      "Body",
+      "Advance, Retire, Rings and Dance Around"
+    ],
+
+    "flashcards": [],
+
+    "extraClues": null
+  },
+
+  {
+    "id": "cross-reel",
+    "name": "Cross Reel",
+
+    "aliases": [
+      "Cross"
+    ],
+
+    "tmrf": 2,
+    "timing": "Reel",
+    "dancers": 8,
+    "formation": "4 couples",
+    "progressive": false,
+
+    "figures": 2,
+    "totalBars": null,
+    "bodyBars": 40,
+    "numberOfMovements": 9,
+
+    "body":[
+    "Extended Sides",
+    "Full Chain",
+    "Gents' Interlace",
+    "Back-to-Back",
+    "Exchange Places"
+],
+
+    "specificTune": null,
+
+    "movements": [
+  {
+    "name": "Lead Around",
+    "bars": 16
+  },
+  {
+    "name": "Extended Sides",
+    "bars": 16
+  },
+  {
+    "name": "Full Chain",
+    "bars": 16
+  },
+  {
+    "name": "Gents' Interlace",
+    "bars": 16
+  },
+  {
+    "name": "Back-to-Back",
+    "bars": 16
+  },
+  {
+    "name": "Exchange Places",
+    "bars": 8
+  },
+  {
+    "name": "Figure of Eight and Ring",
+    "bars": 16
+  },
+  {
+    "name": "Circle Round and Hands Across",
+    "bars": 16
+  },
+  {
+    "name": "Advance, Retire, Rings and Dance Around",
+    "bars": 40
+  }
+],
+
+    "orderOfMovements": [
+      "Lead Around",
+      "Body",
+      "Figure of Eight and Ring - Tops",
+      "Figure of Eight and Ring - Sides",
+      "Body",
+      "Circle Round and Hands Across - Tops",
+      "Circle Round and Hands Across - Sides",
+      "Body",
+      "Advance, Retire, Rings and Dance Around"
+    ],
+
+    "flashcards": [],
+
+    "extraClues": null
+  },
+
+  {
+    "id": "four-hand-reel",
+    "name": "Four Hand Reel",
+
+    "aliases": [
+      "Four Hand",
+      "4 Hand",
+      "4 Hand Reel"
+    ],
+
+    "tmrf": 2,
+    "timing": "Reel",
+    "dancers": 4,
+    "formation": "2 couples",
+    "progressive": false,
+
+    "figures": 2,
+    "totalBars": null,
+    "bodyBars": 48,
+    "numberOfMovements": 9,
+
+    "body":[
+    "The Square",
+    "Four Sevens",
+    "Right and Left Hands Across",
+    "Down the Centre",
+    "Right and Left Chain"
+],
+
+    "specificTune": null,
+
+    "movements": [
+  {
+    "name": "Lead Around",
+    "bars": 16
+  },
+  {
+    "name": "The Square",
+    "bars": 16
+  },
+  {
+    "name": "Four Sevens",
+    "bars": 8
+  },
+  {
+    "name": "Right and Left Hands Across",
+    "bars": 8
+  },
+  {
+    "name": "Down the Centre",
+    "bars": 8
+  },
+  {
+    "name": "Right and Left Chain",
+    "bars": 8
+  },
+  {
+    "name": "Figure of Eight and Rings of Three",
+    "bars": 32
+  },
+  {
+    "name": "Ladies' Chain",
+    "bars": 16
+  },
+  {
+    "name": "Lead Around",
+    "bars": 16
+  }
+],
+
+    "orderOfMovements": [
+      "Lead Around",
+      "Body",
+      "Figure of Eight and Rings of Three - Tops",
+      "Figure of Eight and Rings of Three - Sides",
+      "Body",
+      "Ladies' Chain",
+      "Body",
+      "Lead Around"
+    ],
+
+    "flashcards": [],
+
+    "extraClues": null
+  },
+
+  {
+    "id": "eight-hand-reel",
+    "name": "Eight Hand Reel",
+
+    "aliases": [
+      "Eight Hand",
+      "8 Hand Reel"
+    ],
+
+    "tmrf": 2,
+    "timing": "Reel",
+    "dancers": 8,
+    "formation": "4 couples",
+    "progressive": false,
+
+    "figures": 2,
+    "totalBars": null,
+    "bodyBars": 40,
+    "numberOfMovements": 8,
+
+    "body":[
+    "Extended Sides",
+    "Skip Across",
+    "Return Chain",
+    "Back-to-Back"
+],
+
+    "specificTune": null,
+
+    "movements": [
+  {
+    "name": "Lead Around",
+    "bars": 16
+  },
+  {
+    "name": "Extended Sides",
+    "bars": 16
+  },
+  {
+    "name": "Skip Across",
+    "bars": 32
+  },
+  {
+    "name": "Return Chain",
+    "bars": 16
+  },
+  {
+    "name": "Back-to-Back",
+    "bars": 16
+  },
+  {
+    "name": "Advance, Retire and Dance Around",
+    "bars": 16
+  },
+  {
+    "name": "Ladies' Chain",
+    "bars": 16
+  },
+  {
+    "name": "Advance, Retire, Rings and Dance Around",
+    "bars": 40
+  }
+],
+
+    "orderOfMovements": [
+      "Lead Around",
+    "Body",
+    "Advance, Retire and Dance Around - Tops",
+    "Advance, Retire and Dance Around - Sides",
+    "Body",
+    "Ladies' Chain - Tops",
+    "Ladies' Chain - Sides",
+    "Body",
+    "Advance, Retire, Rings and Dance Around"
+    ],
+
+    "flashcards": [],
+
+    "extraClues": null
+  },
+
+  {
+    "id": "haymakers-jig",
+    "name": "Haymakers' Jig",
+
+    "aliases": [
+      "Haymakers",
+      "Haymakers Jig"
+    ],
+
+    "tmrf": 2,
+    "timing": "Double Jig",
+    "dancers": 10,
+    "formation": "5 couples - partners facing each other in two opposite lines",
+    "progressive": false,
+
+    "figures": 2,
+    "totalBars": null,
+    "bodyBars": null,
+    "numberOfMovements": 5,
+
+    "body": null,
+
+    "specificTune": null,
+
+    "movements": [
+  {
+    "name": "Advance and Retire",
+    "bars": 16
+  },
+  {
+    "name": "Turn in Centre",
+    "bars": 16
+  },
+  {
+    "name": "Dance in Centre",
+    "bars": 16
+  },
+  {
+    "name": "Link Arms",
+    "bars": 24
+  },
+  {
+    "name": "Arch",
+    "bars": 16
+  }
+],
+
+    "orderOfMovements": [
+    "Advance and Retire",
+    "Turn in Centre",
+    "Dance in Centre",
+    "Link Arms",
+    "Arch"
+    ],
+
+    "flashcards": [],
+
+    "extraClues": [ "Long dance", "has march time for a movement"]
+  },
+  {
+    "id": "sixteen-hand-reel",
+    "name": "Sixteen Hand Reel",
+
+    "aliases": [
+      "16 Hand",
+      "16 Hand Reel",
+      "Sixteen Hand"
+    ],
+
+    "tmrf": 3,
+    "timing": "Reel",
+    "dancers": 8,
+    "formation": "8 couples",
+    "progressive": false,
+
+    "figures": 3,
+    "totalBars": null,
+    "bodyBars": 64,
+    "numberOfMovements": 11,
+
+    "body":[
+    "Sides",
+    "Rings",
+    "Sides",
+    "Rings",
+    "Half Chain",
+    "Link Arms"
+],
+
+    "specificTune": null,
+
+    "movements": [
+  {
+    "name": "Lead Around",
+    "bars": 16
+  },
+  {
+    "name": "Sides",
+    "bars": 8
+  },
+  {
+    "name": "Rings",
+    "bars": 8
+  },
+  {
+    "name": "Sides",
+    "bars": 8
+  },
+  {
+    "name": "Rings",
+    "bars": 8
+  },
+  {
+    "name": "Half Chain",
+    "bars": 16
+  },
+  {
+    "name": "Link Arms",
+    "bars": 16
+  },
+  {
+    "name": "Advance, Retire and Dance Around",
+    "bars": 16
+  },
+  {
+    "name": "Right Hand to Opposite Lady",
+    "bars": 24
+  },
+  {
+    "name": "Arch Arms",
+    "bars": 24
+  },
+  {
+    "name": "Advance, Retire, Rings and Dance Around",
+    "bars": 40
+  }
+],
+
+    "orderOfMovements": [
+      "Lead Around",
+    "Body",
+    "Advance, Retire and Dance Around",
+    "Body",
+    "Right Hand to Opposite Lady",
+    "Body",
+    "Arch Arms",
+    "Body",
+    "Advance, Retire, Rings and Dance Around"
+    ],
+
+    "flashcards": [],
+
+    "extraClues": null
+  },
+
+  {
+    "id": "eight-hand-jig",
+    "name": "Eight Hand Jig",
+
+    "aliases": [
+      "8 Hand Jig"
+    ],
+
+    "tmrf": 3,
+    "timing": "Jig",
+    "dancers": 8,
+    "formation": "4 couples",
+    "progressive": false,
+
+    "figures": 2,
+    "totalBars": null,
+    "bodyBars": 56,
+    "numberOfMovements": 8,
+
+    "body":[
+    "Sides",
+    "Skip Across",
+    "Dance into line",
+    "Set All Around"
+],
+
+    "specificTune": null,
+
+    "movements": [
+  {
+    "name": "Lead Around",
+    "bars": 16
+  },
+  {
+    "name": "Skip Across",
+    "bars": 16
+  },
+  {
+    "name": "Dance into line",
+    "bars": 16
+  },
+  {
+    "name": "Set All Around",
+    "bars": 16
+  },
+  {
+    "name": "Advance, Retire and Dance Around",
+    "bars": 16
+  },
+  {
+    "name": "Right and Left Chain & Right Hand to Opposite Lady",
+    "bars": 32
+  },
+  {
+    "name": "Advance, Retire, Rings and Dance Around",
+    "bars": 40
+  }
+],
+
+    "orderOfMovements": [
+    "Lead Around",
+    "Body",
+    "Advance, Retire and Dance Around - Tops",
+    "Advance, Retire and Dance Around - Sides",
+    "Body",
+    "Right and Left Chain & Right Hand to Opposite Lady - Tops",
+    "Right and Left Chain & Right Hand to Opposite Lady - Sides",
+    "Body",
+    "Advance, Retire, Rings and Dance Around"
+    ],
+
+    "flashcards": [],
+
+    "extraClues": null
+  },
+  {
+    "id": "gates-of-derry",
+    "name": "The Gates of Derry",
+
+    "aliases": [
+      "Gates of Derry"
+    ],
+
+    "tmrf": 3,
+    "timing": "Single Jig",
+    "dancers": 8,
+    "formation": "4 couples in two lines, partners facing each other",
+    "progressive": false,
+
+    "figures": null,
+    "totalBars": null,
+    "bodyBars": null,
+    "numberOfMovements": 9,
+
+    "body":null,
+
+    "specificTune": "The Quaker's Wife",
+
+    "movements": [
+  {
+    "name": "Advance and Retire",
+    "bars": 16
+  },
+  {
+    "name": "The Gates",
+    "bars": 8
+  },
+  {
+    "name": "Rings",
+    "bars": 8
+  },
+  {
+    "name": "The Gates",
+    "bars": 8
+  },
+  {
+    "name": "Rings",
+    "bars": 8
+  },
+  {
+    "name": "The Telescope",
+    "bars": 16
+  },
+  {
+    "name": "Right and Left Hands Across",
+    "bars": 8
+  },
+  {
+    "name": "Dance Around",
+    "bars": 8
+  }
+],
+
+    "orderOfMovements": [
+    "Advance and Retire",
+    "The Gates",
+    "Rings",
+    "The Gates",
+    "Rings",
+    "The Telescope",
+    "Right and Left Hands Across",
+    "Dance Around",
+    "First Repeat",
+    "Second Repeat",
+    "Advance and Retire"
+    ],
+
+    "flashcards": [],
+
+    "extraClues": ["On completion of the dance, Couples 1 and 4 will have exchanged places while Couples 2 and 3 are back in their original positions.", "The dance is repeated with movements 2 to 8"]
+  },
+  {
+    "id": "lannigans-ball",
+    "name": "Lannigan's Ball",
+
+    "aliases": [
+      "Lannigans",
+      "Lannigan's",
+      "Lannigans Ball"
+    ],
+
+    "tmrf": 3,
+    "timing": "Single Jig",
+    "dancers": 12,
+    "formation": "6 couples (or 4 couples accepted in competiton",
+    "progressive": false,
+
+    "figures": null,
+    "totalBars": null,
+    "bodyBars": null,
+    "numberOfMovements": 8,
+
+    "body":null,
+
+    "specificTune": "Same name as dance",
+
+    "movements": [
+  {
+    "name": "Ring",
+    "bars": 16
+  },
+  {
+    "name": "Quarter's Hook",
+    "bars": 8
+  },
+  {
+    "name": "Rise and Grind Step",
+    "bars": 16
+  },
+  {
+    "name": "Lead Round in Centre",
+    "bars": 16
+  },
+  {
+    "name": "The Flirtation",
+    "bars": 16
+  },
+  {
+    "name": "Stack-Up",
+    "bars": 16
+  },
+  {
+    "name": "Lead Around",
+    "bars": 8
+  }
+],
+
+    "orderOfMovements": [
+    "Ring",
+    "Quarter's Hook",
+    "Rise and Grind Step",
+    "Lead Round in Centre",
+    "The Flirtation",
+    "Stack-Up",
+    "Lead Around",
+    "Ring"
+    ],
+
+    "flashcards": [],
+
+    "extraClues": ["Round Dance", "No sidestep in this dance"]
+  },
+
+  {
+    "id": "tara-reel",
+    "name": "Tara Reel",
+
+    "aliases": [
+      "Tara",
+      "The Tara Reel"
+    ],
+
+    "tmrf": 3,
+    "timing": "Reel",
+    "dancers": 8,
+    "formation": "4 couples",
+    "progressive": false,
+
+    "figures": 2,
+    "totalBars": null,
+    "bodyBars": 64,
+    "numberOfMovements": 8,
+
+    "body": [
+      "The Monk's Tapestry",
+      "Stones",
+      "Full Chain Variation",
+      "Saint Brigid's Cross",
+      "Back-to-Back Variation"
+    ],
+
+    "specificTune": null,
+
+    "movements": [
+  {
+    "name": "Ring",
+    "bars": 16
+  },
+  {
+    "name": "The Monk's Tapestry",
+    "bars": 16
+  },
+  {
+    "name": "Stones",
+    "bars": 8
+  },
+  {
+    "name": "Full Chain Variation",
+    "bars": 16
+  },
+  {
+    "name": "Saint Brigid's Cross",
+    "bars": 16
+  },
+  {
+    "name": "Back-to-Back Variation",
+    "bars": 8
+  },
+  {
+    "name": "Telescope",
+    "bars": 24
+  },
+  {
+    "name": "The Celtic Knot",
+    "bars": 16
+  }
+],
+
+    "orderOfMovements": [
+    "Ring",
+    "Body",
+    "Telescope",
+    "Body",
+    "The Celtic Knot - Tops",
+    "The Celtic Knot - Opposite Tops",
+    "The Celtic Knot - Sides",
+    "The Celtic Knot - Opposite Sides"
+    ],
+
+    "flashcards": [],
+
+    "extraClues": null
+  },
+  {
+    "id": "haste-to-the-wedding",
+    "name": "Haste to the Wedding",
+
+    "aliases": [
+      "Haste"
+    ],
+
+    "tmrf": 3,
+    "timing": "Jig",
+    "dancers": null,
+    "formation": "any number of couples in a line",
+    "progressive": true,
+
+    "figures": null,
+    "totalBars": null,
+    "bodyBars": null,
+    "numberOfMovements": 8,
+
+    "body": null,
+
+    "specificTune": "tune of same name",
+
+    "movements": [
+  {
+    "name": "The Rising Step",
+    "bars": 4
+  },
+  {
+    "name": "Right Hands Across",
+    "bars": 4
+  },
+  {
+    "name": "The Rising Step",
+    "bars": 4
+  },
+  {
+    "name": "Left Hands Across",
+    "bars": 4
+  },
+  {
+    "name": "Up the Centre",
+    "bars": 8
+  },
+  {
+    "name": "First Ring",
+    "bars": 8
+  },
+  {
+    "name": "Second Ring",
+    "bars": 8
+  },
+  {
+    "name": "Dance Around",
+    "bars": 8
+  }
+],
+
+    "orderOfMovements": [
+    "The Rising Step",
+    "Right Hands Across",
+    "The Rising Step",
+    "Left Hands Across",
+    "Up the Centre",
+    "First Ring",
+    "Second Ring",
+    "Dance Around"
+    ],
+
+    "flashcards": [],
+
+    "extraClues": null
+  },
+  
+  {
+    "id": "rakes-of-mallow",
+    "name": "The Rakes of Mallow",
+
+    "aliases": [
+      "Rakes",
+      "Rakes of Mallow"
+    ],
+
+    "tmrf": 3,
+    "timing": "Reel",
+    "dancers": null,
+    "formation": "any number of trios",
+    "progressive": true,
+
+    "figures": null,
+    "totalBars": null,
+    "bodyBars": null,
+    "numberOfMovements": 5,
+
+    "body": null,
+
+    "specificTune": "tune of same name or any reel tune",
+
+    "movements": [
+  {
+    "name": "Advance and Retire",
+    "bars": 8
+  },
+  {
+    "name": "Dance with Opposite Lady",
+    "bars": 8
+  },
+  {
+    "name": "Dance with Lady on the Right",
+    "bars": 8
+  },
+  {
+    "name": "Link Arms in Centre",
+    "bars": 8
+  },
+  {
+    "name": "Dance Around",
+    "bars": 8
+  }
+],
+
+    "orderOfMovements": [
+    "Advance and Retire",
+    "Dance with Opposite Lady",
+    "Dance with Lady on the Right",
+    "Link Arms in Centre",
+    "Dance Around"
+    ],
+
+    "flashcards": [],
+
+    "extraClues": ["one gent and two ladies on his right", "no sidestep in this dance"]
+  }
+  
+]
