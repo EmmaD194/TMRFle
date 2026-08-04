@@ -346,6 +346,9 @@ function startMovementGame(){
 
   movementAttempts = 0;
 
+    document.querySelector("#movementInstructions").textContent =
+    `Tap the movements of ${currentDance.name} in the correct order.`;
+
 document.querySelector("#movementMessage").textContent = "";
 
   bodyCompleted = false;
