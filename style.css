@@ -351,3 +351,9 @@ header p{
     display:flex;
     justify-content:center;
 }
+
+.lockedChip{
+    opacity:0.8;
+    cursor:default;
+    border:2px solid #198754;
+}
