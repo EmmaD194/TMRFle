@@ -11,6 +11,9 @@ let movementAnswer = [];
 let movementChoices = [];
 let selectedMovements = [];
 
+let movementAttempts = 0;
+const MAX_MOVEMENT_ATTEMPTS = 3;
+
 let movementResults = [];
 
 let selectedTmrf = "all";
@@ -106,6 +109,7 @@ function startGame() {
   document.querySelector("#gameArea").hidden = false;
 
 document.querySelector("#startGameButton").hidden = true;
+document.querySelector("#study-mode").hidden = true;
   document.querySelector("#guess-section").hidden = false;
 
 document.querySelector("#movement-game").hidden = true;
@@ -195,8 +199,22 @@ const suggestionsBox = document.querySelector("#suggestions");
 
 guessInput.addEventListener("input", showSuggestions);
 
+function normalise(text){
+
+    return text
+        .toLowerCase()
+        .replace(/\beight\b/g, "8")
+        .replace(/\bfour\b/g, "4")
+        .replace(/\bsix\b/g, "6")
+        .replace(/\btwo\b/g, "2")
+        .replace(/\bthree\b/g, "3")
+        .replace(/\bfive\b/g, "5")
+        .replace(/\bseven\b/g, "7");
+
+}
+
 function showSuggestions() {
-  const searchText = guessInput.value.trim().toLowerCase();
+  const searchText = normalise(guessInput.value.trim());
   suggestionsBox.innerHTML = "";
 
   if (!searchText) {
@@ -205,7 +223,7 @@ function showSuggestions() {
 
   const matches = dances
     .filter((dance) =>
-      dance.name.toLowerCase().includes(searchText)
+      normalise(dance.name).includes(searchText)
     )
     .slice(0, 6);
 
@@ -226,15 +244,15 @@ function showSuggestions() {
 
 function findDanceByName(name){
 
-    name=name.trim().toLowerCase();
+    name = normalise(name.trim());
 
     return dances.find(dance=>{
 
-        if(dance.name.toLowerCase()==name)
+        if(normalise(dance.name)==name)
             return true;
 
         return dance.aliases.some(alias=>
-            alias.toLowerCase()==name
+            normalise(alias)==name
         );
 
     });
@@ -326,7 +344,10 @@ startMovementGame();
 
 function startMovementGame(){
 
-  
+  movementAttempts = 0;
+
+document.querySelector("#movementMessage").textContent = "";
+
   bodyCompleted = false;
 
     const bodyGame = document.querySelector("#body-game");
@@ -591,46 +612,82 @@ document.querySelector("#movement-game").scrollIntoView({
 
 });
 
+function movementGameOver(){
+
+    gameFinished = true;
+
+    document.querySelector("#movement-game").hidden = true;
+
+    document.querySelector("#resultCard").hidden = false;
+
+    document.querySelector("#resultTitle").textContent =
+        "❌ Game Over";
+
+    document.querySelector("#resultText").innerHTML =
+    `<p>You used all ${MAX_MOVEMENT_ATTEMPTS} movement attempts.</p>
+     <p><strong>Correct order:</strong></p>`;
+
+     const resultText = document.querySelector("#resultText");
+
+const list = document.createElement("ol");
+
+movementAnswer.forEach(movement => {
+
+    const item = document.createElement("li");
+
+    item.textContent = movement;
+
+    list.appendChild(item);
+
+});
+
+resultText.appendChild(list);
+
+    document.querySelector("#new-game-button").hidden = false;
+
+    document.querySelector("#resultCard").scrollIntoView({
+        behavior:"smooth"
+    });
+
+}
+
 function checkMovementOrder(){
 
     if(selectedMovements.length != movementAnswer.length){
 
         const msg = document.querySelector("#movementMessage");
 
-msg.textContent = "Choose all the movements first.";
-msg.className = "gameMessage error";
+        msg.textContent = "Choose all the movements first.";
+        msg.className = "gameMessage error";
 
         return;
 
     }
 
-    
+    // Count this attempt
+    movementAttempts++;
 
-    movementResults=[];
+    movementResults = [];
 
-    let correct=true;
+    let correct = true;
 
-    for(let i=0;i<movementAnswer.length;i++){
+    for(let i = 0; i < movementAnswer.length; i++){
 
-        if(selectedMovements[i]===movementAnswer[i]){
+        if(selectedMovements[i] === movementAnswer[i]){
 
             movementResults.push("correct");
 
         }
-
         else if(movementAnswer.includes(selectedMovements[i])){
 
             movementResults.push("partial");
-
-            correct=false;
+            correct = false;
 
         }
-
         else{
 
             movementResults.push("wrong");
-
-            correct=false;
+            correct = false;
 
         }
 
@@ -638,28 +695,9 @@ msg.className = "gameMessage error";
 
     renderMovementGame();
 
-    if(correct){
-
     const msg = document.querySelector("#movementMessage");
 
     if(correct){
-
-    const msg = document.querySelector("#movementMessage");
-
-    msg.textContent =
-        "🎉 Perfect! Scroll down to the Bars Challenge.";
-
-    msg.className = "gameMessage success";
-
-    showBarsQuestion();
-
-    document.querySelector("#bars-game").scrollIntoView({
-        behavior: "smooth",
-        block: "start"
-    });
-
-}
-    else{
 
         msg.textContent =
             "🎉 Perfect! Scroll down to the Bars Challenge.";
@@ -673,10 +711,30 @@ msg.className = "gameMessage error";
             block: "start"
         });
 
+        return;
+
+    }
+
+    // Wrong answer
+
+    const remaining = MAX_MOVEMENT_ATTEMPTS - movementAttempts;
+
+    if(remaining > 0){
+
+        msg.textContent =
+            `❌ Not quite. ${remaining} attempt${remaining === 1 ? "" : "s"} remaining.`;
+
+        msg.className = "gameMessage error";
+
+    }
+    else{
+
+        movementGameOver();
+
     }
 
 }
-}
+
 function showFlashcard() {
   if (currentDance.flashcards.length === 0) {
     document.querySelector("#flashcard-question").textContent =
@@ -705,7 +763,19 @@ document
 
   document
   .querySelector("#new-game-button")
-  .addEventListener("click", startGame);
+  .addEventListener("click", showStartScreen);
+
+  function showStartScreen(){
+
+    document.querySelector("#study-mode").hidden = false;
+
+    document.querySelector("#startGameButton").hidden = false;
+
+    document.querySelector("#gameArea").hidden = true;
+
+    document.querySelector("#resultCard").hidden = true;
+
+}
 
 function loseGame() {
 
@@ -720,6 +790,8 @@ function loseGame() {
 
     document.querySelector("#resultText").textContent =
         `The correct answer was "${currentDance.name}".`;
+
+    document.querySelector("#new-game-button").hidden = false;
 
     //showFlashcard();
 
