@@ -27,7 +27,7 @@
       "bars": 8
     },
     {
-      "name": "Half Righ and Left",
+      "name": "Half Right and Left",
       "bars": 8
     },
     {
@@ -42,7 +42,7 @@
 
     "orderOfMovements": [
       "Advance and Retire",
-      "Half Righ and Left",
+      "Half Right and Left",
       "Dance with Opposite",
       "Dance Around"
     ],
@@ -189,6 +189,300 @@
       "No fewer than 6 couples (even number of people)",
       "Traditionally said to have been danced around a bonfire at a summer festival on St. John's Eve"
     ]},
+
+    {
+    "id": "The Sweets of May",
+    "name": "The Sweets of May",
+
+    "aliases": ["Sweets of May"],
+
+    "tmrf": 1,
+    "timing": "Single Jig",
+    "dancers": 8,
+    "formation": "4 couples",
+    "progressive": false,
+
+    "figures": 3,
+    "totalBars": null,
+    "bodyBars": 32,
+    "body": [
+      "Cross over and Back",
+      "Advance and Retire",
+      "Ringing the Bells"
+  ],
+    "numberOfMovements": 8,
+
+    "specificTune": "tune of same name",
+
+    "movements": [
+    {
+      "name": "Ring",
+      "bars": 16
+    },
+    {
+      "name": "Advance and Retire",
+      "bars": 8
+    },
+    {
+      "name": "Cross Over and Back",
+      "bars": 8
+    },
+    {
+      "name": "Ringing the Bells",
+      "bars": 32
+    },
+    {
+      "name": "Lead Around",
+      "bars": 16
+    },
+    {
+      "name": "See-Saw",
+      "bars": 16
+    },
+    {
+      "name": "Sides under Arms",
+      "bars": 16
+    }
+  ],
+
+    "orderOfMovements": [
+      "Ring",
+      "Body",
+      "Lead Around",
+      "Body",
+      "See-Saw",
+      "Body",
+      "Sides under Arms",
+      "Body",
+      "Ring"
+    ],
+
+    "flashcards": [],
+
+    "extraClues": null
+  },
+  {
+    "id": "an-rince-mor",
+    "name": "An Rince Mór",
+
+    "aliases": ["Rince Mor", "Rince Mór"],
+
+    "tmrf": 1,
+    "timing": "Reel",
+    "dancers": null,
+    "formation": "circle dance - even number of couples",
+    "progressive": false,
+
+    "figures": null,
+    "totalBars": 40,
+    "bodyBars": null,
+    "body": null,
+    "numberOfMovements": 5,
+
+    "specificTune": null,
+
+    "movements": [
+    {
+      "name": "Rings",
+      "bars": 8
+    },
+    {
+      "name": "Dance with Lady on the Left",
+      "bars": 8
+    },
+    {
+      "name": "Dance with Partner",
+      "bars": 8
+    },
+    {
+      "name": "Link Arms",
+      "bars": 8
+    },
+    {
+      "name": "Lead Around",
+      "bars": 8
+    }
+  ],
+
+    "orderOfMovements": [
+      "Rings",
+      "Dance with Lady on Left",
+      "Dance with Partner",
+      "Link Arms",
+      "Lead Around"
+    ],
+
+    "flashcards": [],
+
+    "extraClues": null
+  },
+  {
+    "id": "siege-of-carrick",
+    "name": "Siege of Carrick",
+
+    "aliases": [],
+
+    "tmrf": 1,
+    "timing": "Jig",
+    "dancers": 4,
+    "formation": "any number of couples - traditionally a four-hand",
+    "progressive": true,
+
+    "figures": null,
+    "totalBars": 32,
+    "bodyBars": null,
+    "body": null,
+    "numberOfMovements": 4,
+
+    "specificTune": "Haste to the Wedding",
+
+    "movements": [
+    {
+      "name": "Ring",
+      "bars": 8
+    },
+    {
+      "name": "Right and Left Hands Across",
+      "bars": 8
+    },
+    {
+      "name": "Down Centre and Turn",
+      "bars": 8
+    },
+    {
+      "name": "Up Centre and Turn",
+      "bars": 8
+    }
+  ],
+
+    "orderOfMovements": [
+      "Ring",
+      "Right and Left Hands Across",
+      "Down Centre and Turn",
+      "Up Centre and Turn"
+    ],
+
+    "flashcards": [],
+
+    "extraClues": null
+  },
+  {
+    "id": "rince-fada",
+    "name": "Rince Fada",
+
+    "aliases": [],
+
+    "tmrf": 1,
+    "timing": "Jig",
+    "dancers": null,
+    "formation": "any number of couples in two lines - gents in one, ladies in the other",
+    "progressive": true,
+
+    "figures": null,
+    "totalBars": 32,
+    "bodyBars": null,
+    "body": null,
+    "numberOfMovements": 6,
+
+    "specificTune": null,
+
+    "movements": [
+    {
+      "name": "The Rising Step",
+      "bars": 4
+    },
+    {
+      "name": "Right Hands Across",
+      "bars": 4
+    },
+    {
+      "name": "Left Hands Across",
+      "bars": 4
+    },
+    {
+      "name": "Advance Down Centre",
+      "bars": 8
+    },
+    {
+      "name": "Dance Around",
+      "bars": 8
+    }
+  ],
+
+    "orderOfMovements": [
+      "The Rising Step",
+      "Right Hands Across",
+      "The Rising Step",
+      "Left Hands Across",
+      "Advance Down Centre",
+      "Dance Around"
+    ],
+
+    "flashcards": [],
+
+    "extraClues": ["Couples stand facing each other but turn 45 degrees inwards to the opposite couple (in fours)"]
+  },
+  {
+    "id": "harvest-time-jig",
+    "name": "Harvest Time Jig",
+
+    "aliases": [],
+
+    "tmrf": 1,
+    "timing": "Jig",
+    "dancers": 6,
+    "formation": "Any number of trios in a line - each trio facing antoher trio",
+    "progressive": true,
+
+    "figures": null,
+    "totalBars": 64,
+    "bodyBars": null,
+    "body": null,
+    "numberOfMovements": 7,
+
+    "specificTune": null,
+
+    "movements": [
+    {
+      "name": "Advance and Retire",
+      "bars": 8
+    },
+    {
+      "name": "Sides",
+      "bars": 8
+    },
+    {
+      "name": "Right and Left Hands Across",
+      "bars": 8
+    },
+    {
+      "name": "Left and Right Hands Across",
+      "bars": 8
+    },
+    {
+      "name": "Step and Turn",
+      "bars": 16
+    },
+    {
+      "name": "Advance, Retire and Pass Through",
+      "bars": 16
+    }
+  ],
+
+    "orderOfMovements": [
+      "Advance and Retire",
+      "Sides",
+      "Right and Left Hands Across",
+      "Sides",
+      "Left and Right Hands Across",
+      "Step and Turn",
+      "Advance, Retire and Pass Through"
+    ],
+
+    "flashcards": [],
+
+    "extraClues": null
+  },
   {
     "id": "siege-of-ennis",
     "name": "Siege of Ennis",
